@@ -920,3 +920,48 @@ Recommended: 516.25
 [2023.10.31-09.37.13:178][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
 [2023.10.31-09.37.13:185][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
 [2023.10.31-09.37.13:206][784]LogUObjectHash: Compacting FUObjectHashTables data took   0.22ms
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: ================================================
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Total job queries 4883, among them cache hits 15 (0.31%)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Tracking 4765 distinct input hashes that result in 1205 distinct outputs (25.29%)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: RAM used: 3.41 MB (0.00 GB) of 1638.40 MB (1.60 GB) budget. Usage: 0.21%
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Shaders Compiled: 4869
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Jobs assigned 4833, completed 4765 (98.59%)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Average time worker was idle: 0.00 s
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Time job spent in pending queue: average 185.47 s, longest 367.88 s
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Job execution time: average 6.16 s, max 11.46 s
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Job life time (pending + execution): average 189.07 s, max 367.88
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 371.35 s
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Jobs were issued in 502 batches (only local compilation was used), average 9.63 jobs/batch
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Average processing rate: 12.83 jobs/sec
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Effective parallelization: 7.04 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_VirtualShadowMapPositionOnly (compiled   25 times, average 1.72 sec, max 1.93 sec, min 1.57 sec)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_OnePassPointLightPositionOnly (compiled   25 times, average 1.61 sec, max 1.79 sec, min 1.41 sec)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display:      TShadowDepthVSVertexShadowDepth_OutputDepthPositionOnly (compiled   25 times, average 1.16 sec, max 1.26 sec, min 1.02 sec)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display: TShadowDepthVSVertexShadowDepth_PerspectiveCorrectPositionOnly (compiled   25 times, average 1.12 sec, max 1.25 sec, min 1.01 sec)
+[2023.10.31-09.38.42:797][644]LogShaderCompilers: Display:                                           FLumenCardPS<true> (compiled    5 times, average 1.05 sec, max 1.16 sec, min 0.95 sec)
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display:                                             FDebugViewModeVS - 4.81% of total time (compiled  179 times, average 0.70 sec, max 1.33 sec, min 0.25 sec)
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 4.79% of total time (compiled  178 times, average 0.70 sec, max 1.37 sec, min 0.26 sec)
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display:                                                 FLumenCardVS - 4.63% of total time (compiled  179 times, average 0.68 sec, max 1.29 sec, min 0.23 sec)
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 4.47% of total time (compiled  184 times, average 0.63 sec, max 1.80 sec, min 0.39 sec)
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display:                                             FDebugViewModePS - 4.26% of total time (compiled  185 times, average 0.60 sec, max 2.25 sec, min 0.43 sec)
+[2023.10.31-09.38.42:798][644]LogShaderCompilers: Display: ================================================
+[2023.10.31-09.44.51:068][810]Cmd: TRANSACTION UNDO
+[2023.10.31-09.44.51:068][810]LogEditorTransaction: Undo Clicking on Elements
+[2023.10.31-09.45.26:495][806]LogPackageLocalizationCache: Processed 31 localized package path(s) for 1 prioritized culture(s) in 0.004592 seconds
+[2023.10.31-09.45.26:497][806]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/3/I5/39QMOMX0SBF5P8WX11O0V6
+[2023.10.31-09.45.26:499][806]LogSavePackage: Moving '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Saved/39QMOMX0SBF5P8WX11O0V6822FDBEF4D47591E09876AB91B60B770.tmp' to '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/3/I5/39QMOMX0SBF5P8WX11O0V6.uasset'
+[2023.10.31-09.45.26:503][806]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/4/7Y/WQ1G94TAXTE1YVN2INDKQ5
+[2023.10.31-09.45.26:504][806]LogSavePackage: Moving '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Saved/WQ1G94TAXTE1YVN2INDKQ5A4F6445E43AD3D22259E16978F1B3530.tmp' to '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/4/7Y/WQ1G94TAXTE1YVN2INDKQ5.uasset'
+[2023.10.31-09.45.26:508][806]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/9/NC/X5FY5G6NYCW5E554TE5F5H
+[2023.10.31-09.45.26:509][806]LogSavePackage: Moving '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Saved/X5FY5G6NYCW5E554TE5F5H143CDFE644741A513679F5BB93BA8FC5.tmp' to '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/9/NC/X5FY5G6NYCW5E554TE5F5H.uasset'
+[2023.10.31-09.45.26:512][806]LogSavePackage: Moving output files for package: /Game/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/B/VA/BP3BNYMRT7OCWW3Q3M2ZTR
+[2023.10.31-09.45.26:513][806]LogSavePackage: Moving '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Saved/BP3BNYMRT7OCWW3Q3M2ZTR698B59C3476DF6EE7869BAAE40E280CF.tmp' to '../../../../../Users/30189833/OneDrive - NESCol/Course/Y2/game stuff/GIT_TEST/GIT_TEST/Content/__ExternalActors__/VehicleTemplate/Maps/VehicleExampleMap/B/VA/BP3BNYMRT7OCWW3Q3M2ZTR.uasset'
+[2023.10.31-09.45.26:522][806]AssetCheck: New page: Asset Save: multiple assets
+[2023.10.31-09.45.26:522][806]LogContentValidation: Display: Validating StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_15
+[2023.10.31-09.45.26:523][806]LogContentValidation: Display: Validating StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_13
+[2023.10.31-09.45.26:523][806]LogContentValidation: Display: Validating StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_25
+[2023.10.31-09.45.26:523][806]LogContentValidation: Display: Validating StaticMeshActor /Game/VehicleTemplate/Maps/VehicleExampleMap.VehicleExampleMap:PersistentLevel.StaticMeshActor_22
